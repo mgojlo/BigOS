@@ -35,6 +35,7 @@
             pkgsCross.buildPackages.binutils
             pkgs.zigpkgs.${zig-version}
             pkgs.zls
+            pkgs.qemu
           ];
         };
       }
